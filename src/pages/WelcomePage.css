@@ -150,23 +150,6 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  margin-bottom: 0;
-}
-
-/* Create gap/space between navbar and page content */
-main {
-  margin-top: 3rem !important;
-}
-
-/* Add padding to all main page containers to create gap after navbar */
-.home-container,
-.about-container,
-.services-container,
-.contact-container,
-.gallery-container,
-.registration-container,
-.page-container {
-  padding-top: 2rem;
 }
 
 .nav-container {
@@ -325,7 +308,7 @@ main {
 .home-container .home-content {
   position: relative;
   z-index: 1;
-  padding: 4rem 2rem 4rem 2rem; /* Reduced top padding since container has padding now */
+  padding: 6rem 2rem 4rem 2rem;
 }
 
 /* Logo Section - ONLY for home */
